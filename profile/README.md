@@ -24,6 +24,11 @@ A survey was conducted among ambulance drivers to gather information about the r
 
 The app is built using Flutter for the frontend, Firebase for the backend and used Google Maps Platform APIs to embed Google Maps into mobile apps and to retrieve data from Google Maps.
 
+We built two apps : the driver's app and the user's app.
+
+The drivers app should be used only by the ambulance drivers and the users' app is for any user to get notified of the ambulance arrival.
+
+![systemdiagram](https://user-images.githubusercontent.com/74011816/201760416-bf601a0c-56b7-4894-ae13-6beb05270b00.png)
 
 ## Challenges we ran into
 - The challenge that we faced was to identify the nearby ambulances.
