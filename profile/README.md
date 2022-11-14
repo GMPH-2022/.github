@@ -1,19 +1,23 @@
 ## Inspiration
-One in 10 patients in India dies on the way to hospital, simply because motorists are clueless about what to do when they see an ambulance on the road. Innumerous deaths happen just because the ambulance gets late due to traffic.
+One in 10 patients in India dies on the way to hospital and the average arrival time of the ambulance is 45 to 50 minutes.
 
-In India the arrival time of the ambulance is 45 to 50 minutes. The most common problem in India for an ambulance not being able to arrive on time is traffic. There is a need to notify people on the same route as of the ambulance about the incoming ambulance and hence request them to make way for it.
+We conducted a survey among ambulance drivers to gather information about the real challenges faced by them. The worst challenge faced by them is traffic, that can be easily reduced if people are aware that an ambulance is on the way. 
 
 By integrating this feature, all users will get notified and some users may try to help clear the traffic which would help ambulances to get to the destination faster and save many lives.
 
 ## What it does
-The app notifies the users near the ambulance about the position and estimated time of arrival so that they have enough time to think and act accordingly.
+
+The solution to this problem is to notify people using Google Maps app when an ambulance is nearby or on their way.
+
+The app notifies the users near the ambulance about the position and ETA so that they have enough time to think and act accordingly.
+
+If we are able to notify people about the incoming ambulance then some users might try to clear the traffic and that would help the ambulance to reach destination faster and save many lives.  
+
 
 ## Algorithm
-With the prerequisite of India’s latitude and longitude extents, we approximately divided the country into grids of 1km x 1km as shown in the figure below.
+With the prerequisite of India’s latitude and longitude extents, we represent the world map into grids of 1km x 1km as shown. This helps to compute the index of the cell in which the ambulance driver is present.
 
 ![gridmap](https://user-images.githubusercontent.com/74011816/201745412-fb6b321a-a996-4bf2-bfe2-a4c6ec19fd84.png)
-
-This helps to compute the index of the cell in which the ambulance driver is present.
 
 ## How we built it
 A survey was conducted among ambulance drivers to gather information about the real challenges faced by them.
